@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d1f87e1-be73-4b4d-acf6-49ea714f507b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/client/head.html" afterPath="$PROJECT_DIR$/app/client/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/components/directory/directory-profile.html" afterPath="$PROJECT_DIR$/app/imports/ui/components/directory/directory-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/layouts/user/user-footer.html" afterPath="$PROJECT_DIR$/app/imports/ui/layouts/user/user-footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/layouts/user/user-header.html" afterPath="$PROJECT_DIR$/app/imports/ui/layouts/user/user-header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/filter/filter-page.html" afterPath="$PROJECT_DIR$/app/imports/ui/pages/filter/filter-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/user/profile-page.html" afterPath="$PROJECT_DIR$/app/imports/ui/pages/user/profile-page.html" />
-    </list>
+    <list default="true" id="6d1f87e1-be73-4b4d-acf6-49ea714f507b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,11 +113,9 @@
       <file leaf-file-name="profile-page.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/user/profile-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-477">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,8 +156,8 @@
     <handled-path value="$PROJECT_DIR$/app/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="712" />
-    <option name="y" value="80" />
+    <option name="x" value="766" />
+    <option name="y" value="49" />
     <option name="width" value="912" />
     <option name="height" value="980" />
   </component>
@@ -379,7 +369,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="712" y="80" width="912" height="980" extended-state="0" />
+    <frame x="766" y="49" width="912" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -859,11 +849,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/imports/ui/pages/user/profile-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
