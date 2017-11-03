@@ -1,63 +1,71 @@
 <template name="Landing_Page">
 
-  <div class="landing-section-1">
-    <div class="ui grid">
+  <div id="top-menu" class="ui borderless topmenu menu">
+    <div class="ui container">
 
-      <div class="row">
-        <div class="ui right aligned sixteen wide column">
-          {{> Cas_Login }}
+      <a class="right item">ABOUT</a>
+      <a class="item">PROFILE</a>
+      <a class="item">FIND PEOPLE</a>
+      <a class="item">GROUPS</a>
+      <a class="item">FAQ</a>
+      <a id="login-button" class="item">{{> Cas_Login }}</a>
+    </div>
+  </div>
+
+  <div id="background-picture">
+
+    <div id="title" class="ui container middle aligned centered grid">
+
+      <div id="title_letters" class="row">
+        <p>Campus Jam</p>
+      </div>
+
+    </div>
+
+    <div id="middle" class="ui container middle aligned centered grid">
+      <div class="item">
+        <h3>Upload your profile with any music skills</h3>
+        <h3>Find your group</h3>
+        <h3>Get together and jam</h3>
+      </div>
+    </div>
+
+
+    <div id="footer">
+      <div class="ui three column centered grid container">
+        <div id="main_use" class="column">
+          MAIN USE
+          <hr>
+          <div class="ui list">
+            <div class="item">PROFILES</div>
+            <div class="item">GROUPS</div>
+            <div class="item">FAQ</div>
+
+          </div>
+        </div>
+        <div id="connect" class="column">
+          CONNECT
+          <hr>
+          <div class="ui list">
+            <div class="item">EMAIL US</div>
+            <div class="item">FACEBOOK</div>
+            <div class="item">TWITTER</div>
+            <div class="item">INSTAGRAM</div>
+          </div>
+        </div>
+        <div id="legal" class="column">
+          LEGAL
+          <hr>
+          <div class="ui list">
+            <div class="item">TERMS OF USE</div>
+            <div class="item">PRIVACY POLICY</div>
+          </div>
         </div>
 
       </div>
-      <div class="row">
-        <div class="ui center aligned sixteen wide column">
-          <h1 class="landing-section-1-welcome">Welcome to BowFolios</h1>
-          <h3 class="landing-section-1-tagline">Professional portfolios and networking for the University of Hawaii community</h3>
-        </div>
-      </div>
     </div>
-  </div>
 
-  <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/profile.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Create your portfolio.</h1>
-        <h1 class="landing-section-header">Specify your interests.</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-3">
-    <div class="ui grid">
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Publish your portfolio in the BowFolio directory.</h1>
-      </div>
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/directory.png">
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/filter.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Find UH community members with similar interests.</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-5">
-    <div class="ui grid">
-      <div class="ui center aligned sixteen wide column">
-        {{> Cas_Login size="large"}}
-      </div>
-    </div>
   </div>
 
 </template>
+
