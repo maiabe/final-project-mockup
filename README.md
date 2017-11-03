@@ -1,2 +1,2 @@
 # final-project-mockup
-![](images/Landing_Page.png)
+<img width="200px" src="images/Landing_Page.png"/>
